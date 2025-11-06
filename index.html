@@ -1,21 +1,25 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BTC 1st</title>
-    <style>
-      body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; padding: 2rem; }
-      header { margin-bottom: 1.5rem; }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTC 15-Minute Trend Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^0.14.0"
+  }
+}
+</script>
 </head>
-<body>
-    <header>
-      <h1>Welcome to BTC 1st</h1>
-    </header>
-    <main>
-      <p>This repository's GitHub Pages site is published from the <strong>main</strong> branch (root).</p>
-      <p>Change this page by editing <code>index.html</code> in the repo.</p>
-    </main>
+<body class="bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
