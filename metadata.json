@@ -1,0 +1,5 @@
+{
+  "name": "BTC 15-Minute Trend Tracker",
+  "description": "A web application that displays the 15-minute price trend and a 24-hour chart for BTC/USD using real-time data from the CoinGecko API.",
+  "requestFramePermissions": []
+}
